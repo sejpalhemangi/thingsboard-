@@ -14,3 +14,5 @@ deploy:
   bucket: "thingsboard213"
   skip_cleanup: true
   acl: public_read
+  on:
+    tags: true
