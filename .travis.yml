@@ -12,6 +12,7 @@ deploy:
   access_key_id: $AWS_ACCES_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: "thingsboard213"
+  local_dir: "application/target"
   skip_cleanup: true
   acl: public_read
   on:
